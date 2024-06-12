@@ -22,4 +22,5 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         <p><strong>Event Date:</strong> ${eventDate}</p>
         <p><strong>Meal Preferences:</strong> ${mealPreferences.join(', ')}</p>
     `;
+    
 });
